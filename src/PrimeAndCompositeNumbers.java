@@ -55,7 +55,7 @@ public class PrimeAndCompositeNumbers {
 			else if(prime > 1)
 				System.out.println("\nThere are " + prime + " prime numbers.");
 			else if (prime == 0)
-				System.out.println("\nThere are no " + prime + " prime number.");
+				System.out.println("\nThere are no prime numbers.");
 			
 			
 			if(composite == 1)
@@ -63,7 +63,7 @@ public class PrimeAndCompositeNumbers {
 			else if(composite > 1)
 				System.out.println("\nThere are " + composite + " composite numbers.");
 			else if (composite == 0)
-				System.out.println("\nThere are no " + composite + " composite number.");
+				System.out.println("\nThere are no composite numbers.");
 
 		} catch(Exception e) {
 			System.out.println("\nPlease enter a number.");

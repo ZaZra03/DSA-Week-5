@@ -12,6 +12,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class PrimeAndCompositeNumbers {
+	//Declaration of static variables
 	public static int[] array;
 	public static int size;
 	public static int prime;
@@ -49,9 +50,21 @@ public class PrimeAndCompositeNumbers {
 					composite++;
 				}
 			}
-
-			System.out.println("\nThere are " + prime + " prime numbers");
-			System.out.println("\nThere are " + composite + " composite numbers");
+			
+			if(prime == 1)
+				System.out.println("\nThere is " + prime + " prime number.");
+			else if(prime > 1)
+				System.out.println("\nThere are " + prime + " prime numbers.");
+			else if (prime == 0)
+				System.out.println("\nThere are no " + prime + " prime number.");
+			
+			
+			if(composite == 1)
+				System.out.println("\nThere is " + composite + " composite number.");
+			else if(composite > 1)
+				System.out.println("\nThere are " + composite + " composite numbers.");
+			else if (composite == 0)
+				System.out.println("\nThere are no " + composite + " composite number.");
 
 		} catch(Exception e) {
 			System.out.println("\nPlease enter a number.");

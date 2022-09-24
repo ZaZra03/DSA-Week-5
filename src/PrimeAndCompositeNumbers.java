@@ -4,7 +4,6 @@
  * prints the output on the screen.
  * 
  * @class PrimeAndCompositeNumbers
- * @method isPrime(int numX)
  */
 
 import java.io.BufferedReader;
@@ -21,7 +20,7 @@ public class PrimeAndCompositeNumbers {
 	/** 
 	 * This is the main method which makes use of isPrime method.
 	 * @param args Unused.
-	 * @throws IOException.
+	 * @throws IOException If an input or output exception occurred.
 	 * @return Nothing.
 	 */
 	public static void main(String args[]) throws IOException {
